@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+    int cases,d;
+    unsigned long long int ans,n;
+    cin>>cases;
+    
+    while(cases--){
+
+        cin>>d>>n;
+        
+        while(d--){
+
+            ans=(n*(n+1))/2;
+            n=ans;
+
+        }
+        cout<<ans<<endl;
+    }
+
+
+}
