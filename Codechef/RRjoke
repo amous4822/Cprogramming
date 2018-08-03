@@ -1,0 +1,35 @@
+//really a Good joke
+ 
+#include <iostream>
+#include <string.h>
+using namespace std;
+ 
+int main() {
+ 
+    int cases,num;
+    cin>>cases;
+ 
+    while(cases--){
+ 
+        cin>>num;
+
+        if(num%2==0){
+            if(num%4==0)
+                cout<<num<<endl;
+            else
+                cout<<num+1<<endl;
+        }
+ 
+        else{
+            if(num%4==1)
+                cout<<"1"<<endl;
+            else    
+                cout<<"0"<<endl;
+        }
+        
+        int i=num+1;
+
+        while(i--)
+            cin.ignore(256,'\n');       
+    }
+}
