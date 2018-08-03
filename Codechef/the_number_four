@@ -1,0 +1,29 @@
+//whhaatttt no way !!!
+ 
+ 
+#include <iostream>
+#include<string.h>
+using namespace std;
+int main() {
+    
+    int cases;
+    unsigned long long int i,ans=0;
+    char a[1000000000];
+ 
+    cin>>cases;
+   
+    while(cases--){
+        ans=0;
+        cin>>a;
+ 
+        for(i=0; i<=strlen(a); i++){
+            if(a[i]=='4')
+                ans++;
+        }
+        cout<<ans<<endl;
+    }
+    
+}
+
+
+//TYG
